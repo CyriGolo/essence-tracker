@@ -43,7 +43,7 @@ function createData(data) {
             <td>${data[i].prix}</td>
             <td>
                 <p>${data[i].adresse}</p>
-                <a href="https://www.google.fr/maps?q=${data[i].adresse} target="_blank""><iconify-icon icon="mdi:compass-outline" width="1.5em"></iconify-icon></a>
+                <a href="https://www.google.fr/maps?q=${data[i].adresse}" target="_blank"><iconify-icon icon="mdi:compass-outline" width="1.5em"></iconify-icon></a>
             </td>
         </tr>
         `
