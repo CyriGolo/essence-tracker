@@ -59,8 +59,3 @@ carbu.addEventListener('change',()=>{
 })
 
 getData(carbu.value, input.value);
-
-navigator.geolocation.getCurrentPosition(position => {
-    const { latitude, longitude } = position.coords;
-    console.log(position);
-});
