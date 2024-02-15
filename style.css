@@ -29,16 +29,6 @@ main {
   gap: 1rem;
 }
 
-#localisation {
-  padding: 5px 15px;
-  display: flex;
-  align-items: center;
-  color: white;
-  background-color: #E11D48;
-  border: none;
-  border-radius: 8px;
-}
-
 #cp {
   color: white;
   outline-offset: 0px;
@@ -151,4 +141,8 @@ a {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+option {
+    background-color: black;
 }
